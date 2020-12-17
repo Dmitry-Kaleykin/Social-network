@@ -1,0 +1,31 @@
+.avatar {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.pagination {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.pageItem {
+    display: inline-block;
+    border: 1px solid lightblue;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+.pageLink {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.active {
+    border-color: #6fbbd3;
+    background-color: #96cdde;
+}
+
+.active a {
+    color: #6fbbd3;
+}

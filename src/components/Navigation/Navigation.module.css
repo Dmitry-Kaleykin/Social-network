@@ -1,0 +1,20 @@
+.navigation {
+    grid-area: n;
+    background-color: coral;
+    padding: 20px;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
+.item a.active {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.friendItem img {
+    width: 50px;
+    border-radius: 5px;
+}

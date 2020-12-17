@@ -1,0 +1,26 @@
+.profile {
+    grid-area: m;
+    background-color: lightseagreen;
+}
+
+.wrapper {
+    display: grid;
+        grid-template-columns: 2fr 10fr;
+}
+
+.dialogs {
+    padding: 10px;
+}
+
+.dialogs .active {
+    color: lightgray;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message img {
+    width: 50px;
+    border-radius: 5px;
+}
